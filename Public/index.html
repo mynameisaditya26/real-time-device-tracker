@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Live Device Tracker</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<header>
+<h1>Live Device Tracker</h1>
+</header>
+<main>
+<div id="map"></div>
+<aside id="devices-panel">
+<h2>Devices</h2>
+<ul id="devices-list"></ul>
+</aside>
+</main>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/js/tracker.js"></script>
+</body>
+</html>
